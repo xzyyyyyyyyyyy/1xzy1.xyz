@@ -1,0 +1,7 @@
+name = "1xzy.xyz"
+main = "worker.js"
+compatibility_date = "2025-06-01"
+
+[site]
+bucket = "./public"
+entry-point = "."

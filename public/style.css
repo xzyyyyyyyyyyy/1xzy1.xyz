@@ -1,0 +1,145 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define color variables for light and dark themes */
+:root {
+    --bg-color-light: #ffffff;
+    --text-color-light: #000000;
+    --link-color-light: #0000ee;
+    --hover-bg-light: #f0f0f0;
+    --border-color-light: #cccccc;
+    --section-bg-light: #f9f9f9; /* Slightly different bg for sections */
+
+    --bg-color-dark: #1a1a1a;
+    --text-color-dark: #e0e0e0;
+    --link-color-dark: #9e9eff;
+    --hover-bg-dark: #333333;
+    --border-color-dark: #444444;
+    --section-bg-dark: #252525; /* Slightly different bg for sections */
+    /* Default to light theme */
+    --bg-color: var(--bg-color-light);
+    --text-color: var(--text-color-light);
+    --link-color: var(--link-color-light);
+    --hover-bg: var(--hover-bg-light);
+    --border-color: var(--border-color-light);
+    --section-bg: var(--section-bg-light);
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 20px;
+}
+
+    /* Dark mode styles */
+    body.dark-mode {
+        --bg-color: var(--bg-color-dark);
+        --text-color: var(--text-color-dark);
+        --link-color: var(--link-color-dark);
+        --hover-bg: var(--hover-bg-dark);
+        --border-color: var(--border-color-dark);
+        --section-bg: var(--section-bg-dark);
+    }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+#theme-toggle {
+    padding: 8px 15px;
+    cursor: pointer;
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+    #theme-toggle:hover {
+        background-color: var(--hover-bg);
+    }
+
+/* --- Layout Optimization using CSS Columns --- */
+main {
+    /* Define column properties */
+    column-width: 280px; /* Adjust minimum width for columns */
+    column-gap: 25px; /* Space between columns */
+    padding-top: 10px; /* Add some space above the columns */
+}
+
+section {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px; /* Space below each section */
+    background-color: var(--section-bg); /* Use section background color */
+    transition: border-color 0.3s, background-color 0.3s;
+    /* Prevent sections from breaking across columns */
+    break-inside: avoid;
+    page-break-inside: avoid; /* Legacy support */
+}
+    /* --- End Layout Optimization --- */
+
+
+    section h2 {
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--border-color);
+        font-size: 1.2em;
+    }
+
+    section ul {
+        list-style: none;
+    }
+
+        section ul li {
+            margin-bottom: 10px;
+        }
+
+            section ul li a {
+                text-decoration: none;
+                color: var(--link-color);
+                transition: color 0.2s, background-color 0.2s;
+                display: block; /* Make the whole area clickable */
+                padding: 5px;
+                border-radius: 4px;
+            }
+
+                section ul li a:hover {
+                    background-color: var(--hover-bg);
+                    text-decoration: underline;
+                }
+
+footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+    text-align: center;
+    font-size: 0.9em;
+    color: var(--text-color); /* Ensure footer text color updates */
+}
+
+    footer a {
+        color: var(--link-color);
+        text-decoration: none;
+    }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
