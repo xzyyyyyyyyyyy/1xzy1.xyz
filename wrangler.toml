@@ -1,4 +1,5 @@
 name = "1xzy1"
+main = "workers-site/index.js"
 compatibility_date = "2025-06-01"
 
 [site]
