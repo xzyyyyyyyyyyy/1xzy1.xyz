@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "1xzy1.xyz"]
+	url = https://github.com/xzyyyyyyyyyyy/1xzy1.xyz.git
+	fetch = +refs/heads/*:refs/remotes/1xzy1.xyz/*
+[branch "main"]
+	remote = 1xzy1.xyz
+	merge = refs/heads/main

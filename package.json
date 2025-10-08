@@ -1,19 +1,37 @@
 {
-  "private": true,
-  "name": "1xzy1-workers-site",
-  "version": "1.0.0",
-  "description": "A template for kick starting a Cloudflare Workers project",
-  "main": "workers-site/index.js",
+  "name": "menav",
+  "version": "1.2.3",
+  "description": "A personal navigation website",
+  "main": "src/generator.js",
+  "homepage": "https://rbetree.github.io/menav",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write '**/*.{js,css,json,md}'"
+    "generate": "node src/generator.js",
+    "dev": "node src/generator.js && serve dist",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && npm run generate",
+    "restructure": "node restructure.js",
+    "migrate-config": "node src/migrate-config.js",
+    "import-bookmarks": "node src/bookmark-processor.js"
   },
-  "author": "",
+  "keywords": [
+    "navigation",
+    "website",
+    "personal"
+  ],
+  "author": "Your Name",
   "license": "MIT",
-  "devDependencies": {
-    "prettier": "^1.18.2"
-  },
   "dependencies": {
-    "@cloudflare/kv-asset-handler": "~0.3.0"
+    "ansi-regex": "^6.0.1",
+    "ansi-styles": "^6.2.1",
+    "color-convert": "^2.0.1",
+    "color-name": "^2.0.0",
+    "handlebars": "^4.7.8",
+    "has-flag": "^5.0.1",
+    "js-yaml": "^4.1.0",
+    "mime-db": "^1.52.0",
+    "supports-color": "^9.4.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
   }
 }

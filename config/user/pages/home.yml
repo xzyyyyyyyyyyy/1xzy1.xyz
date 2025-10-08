@@ -1,0 +1,242 @@
+title: 我的个人导航
+subtitle: 专属导航站点
+
+# 指定使用的模板文件名，现有页面模板可见templates\pages
+template: home
+
+categories:
+  - name: PPT工具
+    icon: fas fa-presentation
+    sites:
+      - name: PPTer吧
+        url: https://ppter8.com/
+        icon: fas fa-file-powerpoint
+        description: 免费PPT模板
+      - name: 51PPT模板
+        url: https://www.51pptmoban.com/
+        icon: fas fa-file-powerpoint
+        description: 幻灯片模板及素材
+      - name: 1PPT模板
+        url: https://www.1ppt.com/
+        icon: fas fa-file-powerpoint
+        description: PPT模板资源
+
+  - name: AI模型
+    icon: fas fa-robot
+    sites:
+      - name: DeepSeek
+        url: https://chat.deepseek.com/
+        icon: fas fa-brain
+        description: AI对话模型
+      - name: Kimi
+        url: https://kimi.moonshot.cn/
+        icon: fas fa-moon
+        description: 智能助手
+      - name: 秘塔AI搜索
+        url: https://metaso.cn/
+        icon: fas fa-search
+        description: AI驱动的搜索引擎
+      - name: GitHub Copilot
+        url: https://github.com/copilot
+        icon: fab fa-github
+        description: 代码AI助手
+      - name: 即梦AI
+        url: https://jimeng.jianying.com/ai-tool/home
+        icon: fas fa-image
+        description: 图片生成
+      - name: 通义万相
+        url: https://tongyi.aliyun.com/wanxiang/
+        icon: fas fa-palette
+        description: AI生图
+      - name: Suno
+        url: https://suno.com/
+        icon: fas fa-music
+        description: AI音频生成
+      - name: ElevenLabs
+        url: https://elevenlabs.io/app/speech-synthesis/text-to-speech
+        icon: fas fa-microphone
+        description: AI语音生成
+      - name: Perplexity
+        url: https://www.perplexity.ai/
+        icon: fas fa-question-circle
+        description: 搜索外网
+      - name: 端脑云
+        url: https://cephalon.cloud/aigc
+        icon: fas fa-cloud
+        description: AI云服务
+      - name: ChatGPT
+        url: https://chatgpt.com/
+        icon: fas fa-comments
+        description: OpenAI对话模型
+      - name: 通义千问
+        url: https://tongyi.aliyun.com/qianwen/
+        icon: fas fa-comment-dots
+        description: 阿里巴巴AI助手
+      - name: Google AI Studio
+        url: https://aistudio.google.com/prompts/new_chat
+        icon: fab fa-google
+        description: 谷歌AI平台
+
+  - name: 湖北大学
+    icon: fas fa-university
+    sites:
+      - name: 中国知网
+        url: https://webvpn.hubu.edu.cn/webvpn/LjIwNC4xNzAuMjE0LjIwOS4xNjQ=/LjIxOS4xNzMuMjE3LjE0My4xNDguMTYyLjE2NC4xNjIuOTYuMTY0LjIwMS4yMTU=/
+        icon: fas fa-book
+        description: 学术资源数据库
+      - name: 湖北大学邮箱
+        url: https://mail.stu.hubu.edu.cn/
+        icon: fas fa-envelope
+        description: 学生邮箱系统
+      - name: 资源统一管理平台
+        url: https://webvpn.hubu.edu.cn/frontend_static/frontend/login/index.html#/
+        icon: fas fa-cog
+        description: 学校资源管理
+      - name: 智慧琴园
+        url: https://one.hubu.edu.cn/#/index51
+        icon: fas fa-home
+        description: 学校综合服务平台
+
+  - name: 工具集合
+    icon: fas fa-tools
+    sites:
+      - name: 在线PS软件
+        url: https://www.uupoop.com/#/
+        icon: fas fa-image
+        description: 在线图片编辑
+      - name: 刘明野的工具箱
+        url: http://tools.liumingye.cn/
+        icon: fas fa-toolbox
+        description: 实用工具集合
+      - name: 免费在线转换器
+        url: https://www.converthelper.net/zh
+        icon: fas fa-exchange-alt
+        description: 文件格式转换
+      - name: 魔搭社区
+        url: https://modelscope.cn/studios
+        icon: fas fa-magic
+        description: AI模型社区
+      - name: Z-Library
+        url: https://zh.zlibyou.ru/
+        icon: fas fa-book-open
+        description: 电子图书馆
+      - name: 思维导图转换器
+        url: https://www.mindean.com/convert
+        icon: fas fa-project-diagram
+        description: 思维导图工具
+      - name: 湖北政务服务网
+        url: http://zwfw.hubei.gov.cn/webview/tszq/web/qykb/index.html
+        icon: fas fa-building
+        description: 政务服务
+      - name: Mathpix Snip
+        url: https://snip.mathpix.com/home
+        icon: fas fa-calculator
+        description: 数学公式识别
+      - name: Markdown转Word
+        url: https://markdowntoword.io/zh
+        icon: fas fa-file-word
+        description: 文档格式转换
+
+  - name: 资源分享
+    icon: fas fa-share-alt
+    sites:
+      - name: 月幕Galgame
+        url: https://www.ymgal.games/archives
+        icon: fas fa-gamepad
+        description: 美少女游戏档案
+      - name: Microsoft Store下载
+        url: https://store.rg-adguard.net/
+        icon: fab fa-microsoft
+        description: 应用商店下载工具
+      - name: 夜雨聆风
+        url: http://www.yeyulingfeng.com/
+        icon: fas fa-download
+        description: 软件资源分享
+      - name: 吉他园地
+        url: https://www.jitahome.com/
+        icon: fas fa-guitar
+        description: 吉他学习资源
+      - name: 游戏合集
+        url: http://www.91panta.cn/thread?topicId=16748
+        icon: fas fa-gamepad
+        description: 单机游戏资源
+      - name: 荐片官网
+        url: https://www.jianpian15.com/#/home
+        icon: fas fa-film
+        description: 电影推荐
+      - name: 湖北大学云
+        url: http://localhost:5173/life
+        icon: fas fa-cloud
+        description: 个人云服务
+
+  - name: 网站管理
+    icon: fas fa-server
+    sites:
+      - name: 宝塔面板
+        url: https://47.122.121.240:8888/login
+        icon: fas fa-server
+        description: 服务器管理面板
+      - name: Cloudflare
+        url: https://dash.cloudflare.com/12c047397cee637c753ff3920c9ca964/home/domains
+        icon: fas fa-cloud
+        description: CDN服务管理
+      - name: 微信读书
+        url: https://weread.qq.com/
+        icon: fas fa-book-reader
+        description: 在线阅读平台
+      - name: GitClone
+        url: https://gitclone.com/
+        icon: fab fa-git-alt
+        description: Git加速服务
+      - name: 阿里云控制台
+        url: https://home.console.aliyun.com/home/dashboard/ProductAndService
+        icon: fas fa-cloud
+        description: 阿里云服务管理
+      - name: 轻量应用服务器
+        url: https://swasnext.console.aliyun.com/servers/cn-wuhan-lr/6df920b7b9a04373ad315b3cf93cecf4/app
+        icon: fas fa-server
+        description: 云服务器管理
+
+  - name: AI集合平台
+    icon: fas fa-brain
+    sites:
+      - name: AI工具集合网
+        url: https://ai-bot.cn/
+        icon: fas fa-robot
+        description: AI工具导航
+      - name: Hugging Face
+        url: https://huggingface.co/
+        icon: fas fa-heart
+        description: AI模型社区
+      - name: AIGC官网
+        url: https://aigc.izzi.cn/
+        icon: fas fa-magic
+        description: AI内容生成
+
+  - name: 在线IDE
+    icon: fas fa-code
+    sites:
+      - name: Project IDX
+        url: https://idx.google.com/
+        icon: fab fa-google
+        description: 谷歌在线IDE
+      - name: Bolt.new
+        url: https://bolt.new/
+        icon: fas fa-bolt
+        description: 在线开发环境
+
+  - name: 云平台服务
+    icon: fas fa-cloud
+    sites:
+      - name: 小旋风
+        url: https://ca01.xxfvipaff.pro/#/dashboard
+        icon: fas fa-wind
+        description: 代理服务
+      - name: Sealos Cloud
+        url: https://bja.sealos.run/
+        icon: fas fa-ship
+        description: 云原生平台
+      - name: 火山方舟
+        url: https://console.volcengine.com/ark/region:ark+cn-beijing/autope/startup
+        icon: fas fa-mountain
+        description: 字节跳动云服务

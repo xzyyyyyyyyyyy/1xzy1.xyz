@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\config",
+    "\\config\\user\\pages",
+    "\\config\\_default",
+    "\\src",
+    "\\src\\helpers",
+    "\\templates",
+    "\\templates\\components",
+    "\\templates\\layouts",
+    "\\templates\\pages"
+  ],
+  "SelectedNode": "\\src\\helpers\\utils.js",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,8 @@
+feat: Add MeNav template system with Handlebars integration
+
+- Created README.md for template system overview, structure, types, and usage examples.
+- Implemented layout template (default.hbs) for overall page structure.
+- Developed various page templates (home, bookmarks, articles, friends, projects, search-results) to display content.
+- Added reusable component templates (navigation, category, site-card, social-links, search-results) for modular UI elements.
+- Established data flow for templates to utilize site configuration and dynamic content rendering.
+- Included best practices and extension guidelines for adding new pages and components.

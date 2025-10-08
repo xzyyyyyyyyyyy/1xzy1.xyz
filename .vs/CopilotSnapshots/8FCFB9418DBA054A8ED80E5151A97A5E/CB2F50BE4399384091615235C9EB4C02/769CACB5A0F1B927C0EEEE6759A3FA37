@@ -1,0 +1,38 @@
+﻿title: 我的导航
+description: 个人网络导航站
+author: 徐紫阳
+favicon: favicon.ico
+logo_text: 导航站
+
+fonts:
+  title:
+    family: Poppins
+    weight: 600
+    source: google
+  subtitle:
+    family: Quicksand
+    weight: 500
+    source: google
+  body:
+    family: Noto Sans SC
+    weight: 400
+    source: google
+    
+profile:
+  title: Hello,
+  subtitle: Welcome to My Navigation
+  description: 个人链接导航站
+
+social:
+  - name: GitHub
+    url: https://github.com/xzyyyyyyyyyyy
+    icon: fab fa-github
+  - name: 邮箱
+    url: mailto:202431121010163@stu.hubu.edu.cn
+    icon: fas fa-envelope
+  - name: QQ
+    url: tencent://message/?uin=2751685141
+    icon: fab fa-qq
+  - name: 微信
+    url: weixin://
+    icon: fab fa-weixin
